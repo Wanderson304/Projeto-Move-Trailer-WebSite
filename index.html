@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Trailer Site</title>
+	<meta nome="viewport" content="width=device-width, initial-scale=0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="bgslide">
+			<div class="nav">
+				<div class="logo">
+					<div>
+						<h1>WATCH <span>TRAILER<span></h1>
+					</div>
+				</div>
+				
+				<div class="MenuFixTop">
+				<div class="mmenu">=</div>
+				</div>
+
+				<div class="menu">
+					<ul>
+						<li><a href="#">NEW MOVIES</a></li>
+						<li><a href="#">UPCOMING</a></li>
+						<li><a href="#">REVIEWS</a></li>
+						<li><a href="#">NEW</a></li>
+					</ul>
+					<div class="footer-menu">
+					<h1><b>WATCH</b>TRAILER</h1>
+					<p>2019 Wanderson Silva</p> 
+					<p>All Right Reserved</p>
+					<p>Privacy Policy</p>
+					</div>
+				</div>
+
+				<div class="paly_button">
+					<img src="img/btnplayer2.png">
+				</div>
+			</div>
+		</div>
+
+		<!--movieposter-->
+		<div class="movieposter">
+			<h3>Popular Movies</h3>
+			<hr>
+			<div class="movie-trailer-grid">
+
+			<div class="tam600px"> <!--Configuração para telas menores-->
+			<div class="trailer1">
+				<a href="#">
+					<img src="img/filme01.png">
+				</a>
+				<h4>Alugar</h4>
+			</div>
+			
+						
+				<div class="trailer1">
+					<a href="#">
+					<img src="img/filme2.png">
+					</a>
+				<h4>Alugar</h4>
+				</div>
+			</div>
+
+			<div class="tam600px"> <!--Configuração para telas menores-->
+				<div class="trailer1">
+					<a href="#">
+					<img src="img/filme3.png">
+					</a>
+				<h4>Alugar</h4>
+				</div>
+			
+				<div class="trailer1 trailer1-last">
+					<a href="#">
+					<img src="img/filme4.png">
+					</a>
+					<h4>Alugar</h4>
+				</div>
+			</div>
+			</div>
+			<a href="#" class="viwell">View All</a>
+		</div>
+
+		<!--movieposter2-->
+		<div class="movieposter">
+			<h3>Must Watch</h3>
+			<hr>
+			<div class="movie-trailer-grid">
+				
+			<div class="tam600px"> <!--Configuração para telas menores-->
+				<div class="trailer1">
+					<a href="#">
+					<img src="img/filme5.png">
+					</a>
+				<h4>Alugar</h4>
+				</div>
+
+				<div class="trailer1">
+					<a href="#">
+					<img src="img/filme6.png">
+					</a>
+				<h4>Alugar</h4>
+				</div>
+			</div>
+			<div class="tam600px"> <!--Configuração para telas menores-->
+				<div class="trailer1">
+					<a href="#">
+					<img src="img/filme07.png">
+					</a>
+				<h4>Alugar</h4>
+				</div>
+		
+				<div class="trailer1 trailer1-last">
+					<a href="#">
+					<img src="img/filme8.png">
+					</a>
+				<h4>Alugar</h4>
+				</div>
+			</div>
+			</div>
+				<a href="#" class="viwell">View All</a>
+			</div>
+
+			<div class="sub">
+				<p>Get the best Movies trailers straight in your inbox each week
+				</p>	
+				<form method="post" action="">
+					<input type="email" name="" class="email" placeholder="Email Address" required>
+					<input type="submit" name="" class="submit" value="Subscribe" >
+				</form>
+			</div>
+
+			<div class="footer">
+				<h1><b>WATCH</b>TRAILER</h1>
+				<p>2019 Wanderson Silva | All Right Reserved</p>
+				<p>Privacy Policy</p>
+			</div>
+	
+	</div>
+
+	<!-- Video modal 
+	<div class="video_modal">
+		<div class="closebtn">X</div>
+		<video id="myvideo" width="80%" height="auto" controls>
+			<source	src="video/video1.mp4" type="video/mp4"> 
+			<source	src="video/video1.mp4" type="video/ogg"> 	
+		</video>
+	</div>
+	-->
+
+
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+
+		//Metodo 2. Script é executado após todos 
+		//os elementos da página serem carregados
+		$(window).load(function(){
+			alert('Atenção! Este site possuí direitos reservados para Wanderson Silva')		
+		});
+
+		/*Video
+		$(document).ready(function(){
+			var $playbtn = $(".play_button"),
+			$openvid = $(".video_modal"),
+			$closevid = $(".closebtn"),
+			$video = $("#myvideo").get(0);
+
+			$playbtn.click(function(){
+				$openvid.fadeIn();
+				$video.load();
+			});
+
+			$closebtn.click(function(){
+				$openvid.fadeOut();
+			});
+			
+			});
+			*/
+
+			//Script ação para abrir o menu
+			$(".mmenu").click(function(){
+				$("body").toggleClass("bodyFix")
+				$(".menu").toggleClass("menuFix")
+			});
+
+			/*Jesus está voltando*/
+/*Slamo 150:6 Todo ser que respira, louve ao Senhor";
+/*Wanderson Silva - Front-End*/
+		
+	</script>
+</body>
+</html>
+
+<!--Wanderson Silva Front-End-->
+<!--Jesus está voltando Romanos 12:2-->
